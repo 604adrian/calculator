@@ -1,0 +1,40 @@
+#frame {
+  width: 317px;
+  height: auto;
+  padding: 50px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: grey;
+  display: grid;
+}
+
+#screen {
+  background-color: lightblue;
+  padding: 10px;
+  height: 2em;
+  margin-bottom: 30px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#btnGrid {
+  display: inline-grid;
+  grid-template-columns: 200px 36%;
+  column-gap: 10%;
+}
+
+#numBtnGrid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+#btnOpGrid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3%;
+}
+
+

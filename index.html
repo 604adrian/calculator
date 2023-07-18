@@ -6,9 +6,41 @@
     <script src="script.js" defer></script>
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="theDiv"></div>
+    <div id="theDiv">
+      <div id="frame">
+        <div id="screen"></div>
+        <div id="btnGrid">
+          <div id="numBtnGrid">
+            <button id="one" class="numButton button"><p>1</p></button>
+            <button id="two" class="numButton button"><p>2</p></button>
+            <button id="three" class="numButton button"><p>3</p></button>
+
+            <button id="four" class="numButton button"><p>4</p></button>
+            <button id="five" class="numButton button"><p>5</p></button>
+            <button id="six" class="numButton button"><p>6</p></button>
+
+            <button id="seven" class="numButton button"><p>7</p></button>
+            <button id="eight" class="numButton button"><p>8</p></button>
+            <button id="nine" class="numButton button"><p>9</p></button>
+
+            <button id="clear" class="button"><p>CE</p></button>
+            <button id="zero" class="numButton button"><p>0</p></button>
+            <button id="point" class="button"><p>.</p></button>
+          </div>
+            
+          <div id="btnOpGrid">
+            <button id="equality"><p>=</p></button>
+            <button id="minus" class="operationButton button"><p>-</p></button>
+            <button id="plus" class="operationButton button"><p>+</p></button>
+            <button id="divideBy" class="operationButton button"><p>/</p></button>
+            <button id="multiplyBy" class="operationButton button"><p>x</p></button>
+            <button id="bracketRight" class="bracketButton button"><p>(</p></button>
+            <button id="bracketLeft" class="bracketButton button"><p>)</p></button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,3 +1,4 @@
+/*
 const theDiv = document.getElementById("theDiv");
 
 const frame = document.createElement("div");
@@ -8,6 +9,7 @@ frame.style.margin = "auto";
 frame.style["margin-top"] = "100px";
 frame.style["background-color"] = "grey";
 frame.style.padding = "50px";
+frame.style.display = "grid";
 
 const screen = document.createElement("div");
 screen.classList.add("screen");
@@ -20,4 +22,4 @@ screen.style.padding = "10px";
 
 frame.appendChild(screen);
 theDiv.appendChild(frame);
-
+*/
