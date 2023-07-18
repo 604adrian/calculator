@@ -37,4 +37,8 @@
   gap: 3%;
 }
 
+#equality {
+  grid-row: 1 /span 2;
+}
+
 
